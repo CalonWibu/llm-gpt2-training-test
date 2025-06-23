@@ -6,7 +6,7 @@ dan sebelumnya saya juga mencoba membuat sebuah model ai sendiri dari 0 dari Tra
 
 ! Saya hanya mengunggah dokumentasi karena model ai terlalu besar dan tidak kuat untuk di push di github.
 
-jadi saya menggunakan sekitar 10000 data namun karena proses trainingnya yang sangad sangad lama dan keburu laptop saya duar duar jadi saya kurangi jadi 100 - 500 data dan batch 20x.
+jadi saya menggunakan sekitar 10000 data namun karena proses trainingnya yang sangad sangad lama dan keburu laptop saya duar duar jadi saya kurangi jadi 100 - 500 data dan epoch 20x.
 
 contoh data yang saya pakai untuk finetunning kali ini seperti
 ```
@@ -94,7 +94,7 @@ dan pada data juga sama persis yaitu
 ("Siapa presiden pertama Indonesia?", "Soekarno")
 ```
 jadi ai itu terkesan hanya copas jawaban dari data, bukan mempelajari data.
-namun karena aku adalah manusia yang baikhati suka membantu dan rajin menabung akhirnya aku coba mengurangi batch jadi 5x dan hasilnya cacad juga.
+namun karena aku adalah manusia yang baikhati suka membantu dan rajin menabung akhirnya aku coba mengurangi epoch jadi 5x dan hasilnya cacad juga.
 
 prompt
 ```
@@ -109,7 +109,7 @@ jadi dari ini aku bisa simpulkan yaitu:
 
 - pertama data yang aku beri itu sangat sangat sangat sangat sangat sangat sangat sangat sangat sangat sangat sangat sangat sangat sangat sedikit di banding model ai lain yang punya sampai miliar parameter, hal ini menyebabkan si model kecerdasannya juga sangat sangat sangat sangat sangat sangat sangat sangat sangat sedikit atau bloon.
 
-- kedua masalah batch atau berapa kali si model ai di ajarin datanya, jika kebanyakan si ai akan menjadi copas atau plug and play, dan jika terlalu sedikit maka ai akan ga jelas.
+- kedua masalah epoch atau berapa kali si model ai di ajarin datanya, jika kebanyakan si ai akan menjadi copas atau plug and play, dan jika terlalu sedikit maka ai akan ga jelas.
 
 - ke 3 adalah masalah duit, karena duit yang terbatas jadi pada project kali ini saya hanya mengandalkan laptop yang tengah tengah kebawah. intinya minimal ram di atas 64gb dan storage juga butuh yang gedhe.
 
